@@ -9,3 +9,6 @@ eureka:
 logging:
   level:
     org.springframework.web: debug
+
+say:
+  cheese: pizza!!
