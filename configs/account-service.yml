@@ -16,4 +16,4 @@ logging:
     org.springframework.web: info
 
 say:
-  cheese: 모듬전!
+  cheese: 모듬전 왕창!
