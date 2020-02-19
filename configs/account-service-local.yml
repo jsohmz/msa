@@ -9,7 +9,7 @@ spring:
   jpa:
     show-sql: true
   flyway:
-    locations: ["classpath:db/migration", "classpath:db/migration-sample"]
+    locations: ["classpath:db/migration", "classpath:db/sample-data"]
 
 eureka:
   client:
