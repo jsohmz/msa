@@ -1,5 +1,15 @@
 server:
   port: 0
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/handsondb/account;AUTO_SERVER=TRUE  #여러 어플리케이션들이 같은 DB를 이용할 수 있음
+    username: sa
+    password: sa
+  jpa:
+    show-sql: true
+  flyway:
+    locations: ["classpath:db/migration", "classpath:db/migration-sample"]
 
 eureka:
   client:
